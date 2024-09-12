@@ -1,0 +1,150 @@
+* {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Start Navbar */
+.navbar {
+    background-color: black;
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.navbar .nav-item a {
+    color: white;
+    font-size: 17px;
+}
+
+.navbar .nav-item a:hover {
+    color: #19c8fa;
+}
+
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* End Navbar */
+/* Start landing */
+.landing {
+    background-image: url(pexels-photo-355770.jpeg);
+    background-size: cover;
+    height: calc(100vh - 70px);
+    position: relative;
+}
+
+/* End landing */
+/* Start about */
+.about {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.about h2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #a0a0a0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about .title p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px auto 40px;
+    color: #6c757d;
+}
+
+.about .content h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.about .content p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* End about */
+/* Start Contact */
+.contact {
+    background-color: #fafafa;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.contact h3 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #a0a0a0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px;
+    position: relative;
+}
+
+.contact .container p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px auto 40px;
+    color: #6c757d;
+}
+
+.contact .container input {
+    padding: 10px;
+    border: 1px solid #b8b8b8;
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+    font: inherit
+}
+
+.contact .container button {
+    position: absolute;
+    bottom: -35px;
+    border: none;
+    background: black;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0s;
+}
+
+.contact .container button:hover {
+    background-color: #b8b8b8;
+    color: black;
+}
+
+/* End Contact */
+/* Start footer */
+.footer {
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer span {
+    color: #19c8fa;
+}
+
+/* End footer */
