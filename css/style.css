@@ -117,25 +117,10 @@ a:focus {
   padding-left: 25px;
 }
 
-.navbar-brand {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-}
-
-.navbar-brand p {
+.navbar-brand span {
+  font-weight: bold;
   color: #ffffff;
-  font-size: 14px;
-  text-align: center;
-  position: absolute;
-  left: 55px;
-  bottom: -4px;
-  font-weight: 600;
-}
-
-.navbar-brand img {
-  width: 30px;
+  font-size: 24px;
 }
 
 .custom_nav-container {
